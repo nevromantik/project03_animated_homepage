@@ -1,0 +1,45 @@
+.section4_wrap {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("greenplant.jpeg");
+  position: relative;
+  bottom: 50px;
+}
+.section4_input {
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4_btn {
+  height: 50px;
+  width: 190px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: #769a5a;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+.input_s4 {
+  height: 40px;
+  width: 190px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.section4_h1 {
+  font: 48px "Raleway", sans-serif;
+}
+
+.section4_p {
+  font: 20px "Open Sans", sans-serif;
+  position: relative;
+  bottom: 10px;
+}
