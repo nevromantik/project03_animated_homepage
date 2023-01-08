@@ -8,8 +8,19 @@ function Section4() {
 
   return (
     <div className="section4_wrap">
-      <div className="section4_input">
-        <h1 className="section4_h1">Be the first to know</h1>
+      <div
+        className="section4_input"
+        data-aos={"zoom-in"}
+        data-aos-duration={"2000"}
+      >
+        <h1
+          className="section4_h1"
+          data-aos={"zoom-in"}
+          data-aos-duration={"2000"}
+          data-aos-delay={300}
+        >
+          Be the first to know
+        </h1>
         <p className="section4_p">
           Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
           <br /> nullam nunc justo sagittis suscipit ultrices.

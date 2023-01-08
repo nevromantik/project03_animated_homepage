@@ -1,0 +1,60 @@
+.section6_wrap {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 800px;
+  background-color: black;
+  position: relative;
+  bottom: 60px;
+}
+
+ul {
+  list-style: none;
+  font: 18px "Open Sans", sans-serif;
+  line-height: 39px;
+}
+
+ul li:before {
+  content: "✓";
+  color: orange;
+}
+.section6_btn {
+  height: 65px;
+  width: 239px;
+  border-radius: 20px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  background-color: black;
+  position: relative;
+  right: 70px;
+  top: 230px;
+}
+.section6_first {
+  color: white;
+  background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/adf0b053eb8d58379460588d/3e441115-a050-5650-4e6d-25e8e5cd82a4.jpg);
+}
+.section6_second {
+  background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/4cd3e4ff21f6507a9779f4ee/1394453e-a213-c6d5-6271-8bea97f28e15.jpg);
+  background-position: center;
+}
+
+.section6_h1 {
+  font: 60px "Raleway", sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: 200px;
+}
+.s6_li {
+  text-align: left;
+  position: relative;
+  top: 200px;
+  left: 350px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 479px) {
+  .section6_wrap {
+    display: none;
+  }
+}

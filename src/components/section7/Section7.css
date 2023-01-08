@@ -1,0 +1,54 @@
+.counter_wrap {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+.counter {
+  font: 30px "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.section7_wrap {
+  display: flex;
+  justify-content: space-around;
+  height: 1000px;
+  background-color: #1a1a1a;
+  color: white;
+  position: relative;
+  bottom: 60px;
+}
+.percentage {
+  font-size: 25px;
+  font-weight: 700;
+}
+.section7_counterdiv {
+  display: flex;
+  margin-bottom: 40px;
+}
+.section7_txt {
+  text-align: left;
+}
+.section7_second {
+  margin-top: 100px;
+}
+.section7_first {
+  margin-top: 60px;
+}
+.section7_h1 {
+  text-align: left;
+  font: 60px "Raleway", sans-serif;
+  font-weight: 600;
+  line-height: 67px;
+}
+.section7_txt {
+  font: 16px "Open Sans", sans-serif;
+  line-height: 26px;
+  margin-left: 20px;
+}

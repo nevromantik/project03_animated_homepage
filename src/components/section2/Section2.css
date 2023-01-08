@@ -44,3 +44,16 @@
 .section2_card_p {
   color: #797979;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 479px) {
+  .section2_cards_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .section2_wrap {
+    height: 2000px;
+  }
+  .section2_card {
+    width: 320px;
+  }
+}
