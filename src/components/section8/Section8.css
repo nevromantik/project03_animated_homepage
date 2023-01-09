@@ -72,11 +72,20 @@
   .mcard1 {
     position: relative;
     bottom: 10px;
+    width: 100%;
   }
-
+  .mcard3 {
+    width: 100%;
+    position: relative;
+    bottom: 22px;
+  }
+  .card1 {
+    width: 100%;
+  }
   .card3 {
     position: relative;
     bottom: 16px;
+    width: 100%;
   }
 
   .h2card3,
